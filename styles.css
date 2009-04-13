@@ -1,0 +1,103 @@
+/**
+ * 
+ *      rubberduck! quack.
+ *
+ *      this software was written by roeland nieuwenhuis for the poweradmin project
+ *      all the stuff belonging to this project is under gpl, oh and if you rip stuff
+ *      please leave my name somewhere, i just love fame!
+ *
+ **/
+
+body {
+    color: white;
+    background-color: #333333;
+    font-family: verdana, arial, helvetica, geneva, sans-serif;
+    font-size: 12px; 
+}
+
+#cell { 
+    background-color: #444444; 
+/*  font-family: verdana, arial, helvetica, geneva, sans-serif; Inherited from body, not needed */
+    font-size: 12px; 
+}
+
+a.todo:link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a.todo:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.todo:hover {
+    color: #009d00;
+    text-decoration: none;
+}
+
+/************************************************/
+
+a.red:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a.red:visited {
+    color: #ffffff;
+    text-decoration: none;
+}
+a.red:hover {
+    color: #9d0000;
+    text-decoration: none;
+}
+
+/************************************************/
+
+#cell td.infocell {
+    text-align: center;
+    width: 50px;
+    border: solid #FFFFFF 1px;
+}
+
+#cell td.deleteleft {
+    border-left: none;
+}
+
+#cell td.deletebottom {
+    border-bottom: none;
+}
+
+#cell td.deleteright {
+    border-right: none;
+}
+
+#cell td.deleteleft {
+    border-left: none;
+}
+#cell td { border: solid #FFFFFF 1px; }
+
+td.topborder {
+    border-top: solid #FFFFFF 1px; 
+}
+td.leftmenu {
+    height: 300px;
+    text-align: center;
+}
+
+/************************************************/
+
+p.header {
+    font-size: 18px; 
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+p.footer {
+    font-size: 9px; 
+    margin-top: 50px;
+    text-align: center;
+
+}
